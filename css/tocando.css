@@ -1,0 +1,136 @@
+@font-face{
+	font-family:florentia;
+	src: url(fontes/florentialight.ttf);
+}
+@font-face{
+	font-family:florentiab;
+	src: url(fontes/florentiabold.ttf);
+	font-weight:bold;
+}
+@font-face{
+	font-family:expressway;
+	src: url(fontes/expressway.ttf);
+}
+
+body{
+  margin: 0px;
+}
+p{
+  font-family: florentiab;
+}
+b{
+  font-family: florentiab;
+}
+hr{
+  margin:10px;
+}
+h1{
+  margin:5px;
+}
+
+div.fundoArtista{
+  z-index: -1;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+.fundoArtista img{
+  margin: -75px 0 0 -100px;
+}
+
+div.Tocando{
+  font-size:25px;
+  border-radius: 5px;
+  background: RGBA(40,40,40,0.4);
+  border-style: solid;
+  border-width: 2px;
+  height: 70%;
+  width: 40%;
+  right: 31%;
+  bottom: 150px;
+  position: absolute;
+  text-align: center;
+}
+
+div.Playlist{
+  font-size:25px;
+  border-radius: 5px;
+  background: RGBA(40,40,40,0.4);
+  border-style: solid;
+  border-width: 2px;
+  height: 70%;
+  width: 30%;
+  right: 0%;
+  bottom: 150px;
+  position: absolute;
+  text-align: center;
+}
+
+div.cabecalho{
+  border-top-left-radius: 5px;
+  border-top-right-radius:5px;
+  margin-top:0;
+  padding: 20px;
+  font-size: 50px;
+  color:white;
+  background: RGBA(0,0,0,0.5);
+}
+
+div.albumart{
+  padding: 5px;
+  padding-top: 15px;
+  width: 300px;
+  height: 300px;
+}
+
+img.albumartprx{
+  padding: 5px;
+  margin: 0px;
+  float: left;
+  border-radius: 25px;
+  width: 25%;
+}
+
+div.musica{
+  position: absolute;
+  left:46%;
+  top: 7%;
+  color:white;
+  float: left;
+  font-family: florentia;
+  font-size: 125%;
+  text-align: left;
+}
+
+div.musicaprx{
+  float: left;
+  color:white;
+  font-family: florentia;
+  font-size: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  text-align: left;
+}
+
+div.proximamusica{
+  width: 100%;
+  height: 21%;
+}
+
+div.divBotoes{
+  position:absolute;
+  bottom:0px;
+	left: 830px;
+	width: 500px;
+	margin-bottom:30px;
+}
+a{
+	margin:2px;
+	border-radius: 15px;
+	background: rgb(30,30,30);
+	color:white;
+	text-decoration: none;
+	font-size: 30px;
+	padding: 30px;
+}
